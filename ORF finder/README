@@ -1,0 +1,8 @@
+Open Reading Frame (ORF) Finder
+An ORF is a sequence of DNA that has the potential to be translated into a protein. The function (find_longest_orf) accepts a DNA sequence and returns the longest ORF found in the sequence. The ORF is determined by locating the start codon ("ATG") and searching for a valid stop codon ("TAA", "TAG", or "TGA").
+
+Libraries:
+Biopython (Bio.SeqIO)
+
+Requirements:
+Python 3.0 or higher
