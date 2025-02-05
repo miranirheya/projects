@@ -1,0 +1,7 @@
+Exon Extraction Program
+This program extracts specific exonic regions from a DNA sequence stored in a text file. The function (extract_exons) takes an input text file containing a DNA sequence, a list of start and end positions for the exons, and an output file name. It extracts the exonic regions from the input sequence, concatenates them, and saves them to the output file.
+
+Requirements
+Python 3.0 or higher
+Input text file containing the DNA sequence (no special format required, but the sequence should be continuous).
+List of exon start and end positions in the format [(start, end), ...]
