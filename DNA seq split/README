@@ -1,0 +1,8 @@
+DNA Sequence Splitter
+This Python script reads a DNA sequence from a file and splits it into smaller segments (pieces) based on user input. The program ensures that the number of pieces and file validity are correctly checked, providing a smaller piece of the DNA sequence.
+
+User Inputs:
+The user is prompted to enter a valid filename. The script attempts to open this file and read its contents. If the filename is invalid, the script exits with an error message.
+The user is prompted to enter the number of pieces the DNA sequence should be split into. If the number is zero or negative, the script exits with an error message.
+  
+Requirements: Python 3.0 or higher
