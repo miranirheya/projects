@@ -1,0 +1,35 @@
+Cardiovascular Disease (CVD) Data Analysis and Machine Learning
+The Jupyter Notebook provides a comprehensive analysis of CVD data, focusing on predicting patient survival outcomes (survived or dead) using various data wrangling, exploratory data analysis (EDA), and machine learning techniques. The goal of this project is to analyze the dataset containing clinical and demographic information about CVD patients, and to use machine learning classifiers to predict whether a patient will survive or not based on their characteristics. By leveraging machine learning, we aim to develop a model that can aid healthcare professionals in making informed decisions regarding treatment plans and patient management.
+
+- Data Exploration: Unique questions regarding the dataset to uncover important insights about the features and their relationships 
+- Data Preparation: Split the dataset into training and test sets. The training set is used to train the classifiers, while the test set is reserved for evaluating model performance on unseen data.
+- Machine Learning Model Training: Logistic Regression, Support Vector Machine (SVM), and Random Forest Classifier, trained using the preprocessed dataset.
+- Model Evaluation: Implemented N-fold cross-validation to evaluate the performance of each classifier and ensure the models are not overfitting the training data. The best-performing model is selected for further testing on the reserved test set.
+- Performance Visualization: ROC Curve and Precision-Recall Curve are generated. Additionally, a confusion matrix is used to evaluate the final model’s prediction accuracy, showing how well it classifies patients as either survived or dead. 
+
+
+Libraries Used
+- pandas: For data wrangling and preprocessing.
+- seaborn: For data visualization and creating plots.
+- matplotlib: For data visualization and creating plots.
+- scikit-learn: For machine learning model implementation, evaluation, and performance metrics.
+- Google Colab: For running the analysis and utilizing available computational resources.
+
+Files
+- CVD_data_analysis.ipynb**: The Jupyter notebook containing the entire analysis process.
+- Dataset csv: The cardiovascular disease dataset is available through the link provided in the notebook.
+
+Instructions
+To run this analysis locally or on Google Colab:
+1. Ensure that you have installed the required libraries (pandas, seaborn, matplotlib, scikit-learn).
+2. Download or access the `CVD_data_analysis.ipynb` file and dataset.
+3. Open the notebook in Jupyter or Google Colab and execute the cells in sequence.
+
+Results and Observations
+- The Random Forest Classifier outperformed other models in predicting patient survival with an accuracy of 75%.
+- ROC curves and precision-recall plots were generated to visually compare the performance of all models.
+- A confusion matrix was created to evaluate the final model's performance in predicting survival outcomes.
+
+Future Work
+- Explore hyperparameter tuning to improve the performance of the Random Forest model.
+- Consider using ensemble methods or additional models such as Gradient Boosting for further evaluation.
